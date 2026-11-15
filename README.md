@@ -4,9 +4,7 @@ Welcome to my academic repository! This space centralizes my academic work, proj
 
 ## 🎯 Academic Focus & Interests
 * *Fields:* Data Science, Artificial Intelligence, Software Engineering, Database Management.
-* *Languages & Tools:* Python, SQL, Git.
+* *Languages & Tools:* C, Git.
 
 ## 📂 Repository Structure
-* /Data-Science : Data analysis, statistics, and machine learning models (Coming soon).
-* /Databases : SQL scripts, database design, and optimization labs (Coming soon).
-* /Core-Computing : Algorithms, object-oriented programming, and data structures.
+* /Projet-C : Système de gestion des notes d'étudiants en langage C.
