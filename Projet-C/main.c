@@ -12,7 +12,6 @@ typedef struct {
 Etudiant etudiants[MAX];
 int nb = 0;
 
-// 1. Ajouter un etudiant
 void ajouter() {
     if (nb >= MAX) {
         printf("Liste pleine.\n");
@@ -45,7 +44,6 @@ void ajouter() {
     printf("Etudiant ajoute avec succes.\n");
 }
 
-// 2. Afficher les etudiants
 void afficher() {
     if (nb == 0) {
         printf("Aucun etudiant.\n");
@@ -63,7 +61,6 @@ void afficher() {
     }
 }
 
-// 3. Classer les etudiants par moyenne
 void classer() {
     Etudiant temp;
 
@@ -89,7 +86,6 @@ void classer() {
     afficher();
 }
 
-// 4. Rechercher un etudiant
 void rechercher() {
     char nomRecherche[50];
     int trouve = 0;
@@ -115,7 +111,6 @@ void rechercher() {
     }
 }
 
-// 5. Sauvegarder les donnees
 void sauvegarder() {
     FILE *fichier;
 
@@ -140,7 +135,6 @@ void sauvegarder() {
     printf("Donnees sauvegardees avec succes !\n");
 }
 
-// 6. Charger les donnees
 void charger() {
     FILE *fichier;
 
@@ -169,7 +163,6 @@ void charger() {
     printf("%d etudiant(s) charge(s) avec succes !\n", nb);
 }
 
-// Programme principal
 int main() {
     int choix;
 
